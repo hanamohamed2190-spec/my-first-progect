@@ -1,73 +1,48 @@
- <!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="ar">
 <head>
-    <title>My First Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>موقعي الأول</title>
 
-    <style>
-        body {
-            background-color: #f3e8ff;
-            text-align: center;
-            font-family: Arial, sans-serif;
-            padding-top: 100px;
-        }
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      direction: rtl;
+      padding: 50px;
+    }
 
-        .card {
-            background-color: white;
-            width: 70%;
-            max-width: 600px;
-            margin: auto;
-            padding: 40px;
-            border-radius: 25px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
-        }
+    h1 {
+      font-size: 35px;
+    }
 
-        h1 {
-            color: #7b2cbf;
-            font-size: 40px;
-        }
+    p {
+      font-size: 20px;
+    }
 
-        p {
-            color: #444;
-            font-size: 20px;
-            line-height: 1.6;
-        }
-
-        button {
-            background-color: #7b2cbf;
-            color: white;
-            border: none;
-            padding: 15px 30px;
-            font-size: 18px;
-            border-radius: 12px;
-            cursor: pointer;
-            transition: 0.3s;
-        }
-
-        button:hover {
-            background-color: #5a189a;
-            transform: scale(1.08);
-        }
-    </style>
+    button {
+      padding: 12px 25px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+  </style>
 </head>
 
 <body>
 
-    <div class="card">
+  <h1>أهلاً بيكي في موقعي ❤️</h1>
 
-        <h1>Hello! 👋 Welcome to my first website! 💻✨</h1>
-<h2>My name is Hana ❤️</h2>
-        <p>
-            I'm learning programming and building my skills step by step. 🚀
-        </p>
+  <p>ده أول موقع ليا وأنا بتعلم البرمجة 💻</p>
 
-        <button onclick="alert('Welcome to my website! ❤️')">
-            Click Me!
-        </button>
+  <button onclick="sayHello()">اضغطي هنا</button>
 
-   
-<script>
-  alert("أهلاً بيكي في موقعي ❤️");
-</script>
-<body/>
-<html/>
+  <script>
+    function sayHello() {
+      alert("أهلاً بيكي يا بطلة! 🎉");
+    }
+  </script>
+
+</body>
+</html>
  
